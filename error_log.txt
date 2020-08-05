@@ -1,0 +1,5 @@
+[01-Jun-2020 10:46:16 UTC] PHP Notice:  Undefined variable: Reviews in I:\home\studio-phoenix.com\www\template\info.inc.php on line 82
+[01-Jun-2020 10:46:20 UTC] PHP Notice:  Undefined variable: Reviews in I:\home\studio-phoenix.com\www\template\info.inc.php on line 82
+[23-Jun-2020 08:04:11 UTC] PHP Parse error:  syntax error, unexpected T_STRING in I:\home\studio-phoenix.com\www\config.inc.php on line 12
+[23-Jun-2020 08:05:17 UTC] PHP Parse error:  syntax error, unexpected T_STRING in I:\home\studio-phoenix.com\www\config.inc.php on line 12
+[23-Jun-2020 08:05:19 UTC] PHP Parse error:  syntax error, unexpected T_STRING in I:\home\studio-phoenix.com\www\config.inc.php on line 12

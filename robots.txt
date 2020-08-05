@@ -1,0 +1,6 @@
+User-agent: *
+Allow: / 
+Disallow: /admin/
+Crawl-delay: 1
+Host: https://studio-phoenix.com
+Sitemap: https://studio-phoenix.com/sitemap.xml
