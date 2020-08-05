@@ -1,0 +1,34 @@
+.slider__item {
+      flex: 0 0 100%;
+      max-width: 100%;
+	  height: 400px; 
+	  background: #1a1a1a8f;
+	  text-align: center;
+}
+    
+	.slideheader {
+justify-content: space-evenly;
+flex-wrap: wrap;
+display: flex;
+align-items: baseline;
+position: initial;
+z-index: 130;
+right: 40px;
+left: 40px;
+}
+.slidetable {
+position: relative;
+overflow: visible;
+font-family: inherit;
+cursor: pointer;
+}
+
+
+    @media all and (max-width: 700px) and (min-width: 0px) {
+      .slider__item {
+        flex: 0 0 100%;
+        max-width: 100%;
+		height: 900px; 
+      }
+    }
+	

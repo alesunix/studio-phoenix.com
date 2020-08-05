@@ -1,0 +1,74 @@
+.headerstyle {
+justify-content: space-evenly;
+flex-wrap: wrap;
+display: flex;
+align-items: flex-end;
+background: #1a1a1af0;
+position: fixed;
+z-index: 130;
+right: 0;
+left: 0;
+margin-top: -20px;
+padding-bottom: 10px;
+}
+.tabstyle {
+position: relative;
+overflow: visible;
+#margin: 5px;
+#width: 45%;
+#background: #1111119e;
+font-family: inherit;
+font-size: 1em;
+text-align: center;
+padding-top: 13px;
+}
+
+.diwell {
+background: #1a1a1a; /* Цвет фона */
+}
+.tabl {
+justify-content: center;
+flex-wrap: wrap;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+align-items: center;
+}
+.tab {
+position: relative;
+overflow: hidden;
+width: 40%;
+font-family: inherit;
+font-size: 1em;
+text-align: left;
+margin-right: 10px;
+}
+
+/* MEDIA QUERIES */
+@media all and (max-width: 950px) and (min-width: 701px){
+.tabstyle {
+    display:block;
+    width:47%;
+  }
+  .tab {
+    display:block;
+    width:47%;
+  }
+    .headerstyle {
+position: absolute;
+}
+}
+@media all and (max-width: 700px) and (min-width: 0px){
+	.tab {
+    display: block;
+    width:100%;
+  }
+.tabstyle {
+    display: block;
+    width:100%;
+	text-align: center;
+  }
+  .headerstyle {
+position: absolute;
+}
+}

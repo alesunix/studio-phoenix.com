@@ -1,0 +1,253 @@
+#message{padding-top:5px;padding-bottom:70px;background: linear-gradient(0deg, #191d1e 50%,#283139 100%);border-top:1px solid #9d9d9d;}#message h2{margin-bottom:30px}#message h2 span{border-bottom:3px solid #ffdb85;}#message label{color:#666;margin-bottom:10px;font-size:1.2em}#message #form_email,#message #form_message,#message #form_name{box-sizing:border-box;border:1px solid #fff;box-shadow:none}#message #form_email,#message #form_name{padding:25px;border:1px solid #ccc;font-size:1.1em}#message #form_message{height:249px;padding:25px;border:1px solid #ccc;font-size:1.2em}#message #button_contacts{background:#666;padding:15px 0;width:100%;border:2px solid #666;color:#fff;cursor:pointer;font-size:1.3em;text-transform:uppercase;transition:background .6s,color .6s}#message #button_contacts:hover{background:0 0;color:#666}
+* {
+  box-sizing: border-box;
+}
+
+.hover-fold {
+  background: #e6e6e6;
+  border: 5px #f7f7f7 solid;
+  height: 235px;
+  #margin: 10px auto;
+  -moz-perspective: 1500;
+  -webkit-perspective: 1500;
+  perspective: 1500;
+  position: relative;
+  width: 310px;
+}
+.hover-fold h2 {
+  border-bottom: 1px solid #333;
+  margin: 0 40px;
+  padding: 55px 0 2px;
+}
+.hover-fold .top {
+  height: 50%;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  -moz-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: 10;
+}
+.hover-fold .top .face {
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+}
+.hover-fold:hover .top {
+  -moz-transform: rotateX(-180deg);
+  -ms-transform: rotateX(-180deg);
+  -webkit-transform: rotateX(-180deg);
+  transform: rotateX(-180deg);
+}
+.hover-fold .back {
+	  color: #006;
+  background: #e6e6e6;
+  height: 100%;
+  /*has to be 100% of .top */
+  padding: 0 40px;
+  -moz-transform: rotateX(180deg);
+  -ms-transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+  width: 100%;
+}
+.hover-fold .back p {
+  margin: -25px;
+}
+.hover-fold .front {
+  background: url(/i/portfolio.jpg);
+  height: 100%;
+  /*has to be 100% of .top */
+  width: 100%;
+}
+.hover-fold .bottom {
+  background:  url(/i/portfolio.jpg) bottom;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  z-index: 0;
+}
+.hover-fold .front1 {
+  background: url(/i/about_me.jpg);
+  height: 100%;
+  /*has to be 100% of .top */
+  width: 100%;
+}
+.hover-fold .bottom1 {
+  background:  url(/i/about_me.jpg) bottom;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  z-index: 0;
+}
+.hover-fold .front2 {
+  background: url(/i/features.jpg);
+  height: 100%;
+  /*has to be 100% of .top */
+  width: 100%;
+}
+.hover-fold .bottom2 {
+  background:  url(/i/features.jpg) bottom;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  z-index: 0;
+}.hover-fold .front3 {
+  background: url(/i/blog.jpg);
+  height: 100%;
+  /*has to be 100% of .top */
+  width: 100%;
+}
+.hover-fold .bottom3 {
+  background:  url(/i/blog.jpg) bottom;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  z-index: 0;
+}
+.form-search {  /* форма с boxtuffs.com */
+  position: relative;
+  display: inline-block;
+  border: 1px solid #747474;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 1px #575555, 0 1px 0 #FFF;
+  background-image: linear-gradient(#BCBCBC, #EBEBEB);
+}
+.form-search:before {  /* рамка вокруг формы */
+  position: absolute;
+  content: "";
+  top: -5px;
+  right: -5px;
+  bottom: -5px;
+  left: -5px;
+  z-index: -1;
+  border-radius: 5px;
+  background: linear-gradient(#D3D3D3, #CACACA 50%, #A9A9A9 50%, #9B9B9B);
+}
+.form-search:focus-within {  /* изменение формы при фокусе */
+  box-shadow: inset 0 1px 1px #46575b, 0 1px 0 #FFF;
+  background: linear-gradient(#9CC2CA, #DFECEF);
+}
+.form-search input[type="search"] {  /* поле поиска */
+  width: 60px;
+  height: 32px;
+  line-height: 32px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding: 0 0 0 6px;
+  background: transparent;
+  font: 13px Helvetica, Arial, sans-serif;
+  color: #6E7074;
+  text-shadow: 0 1px 0 #FFF;
+  transition: all .2s ease-out;
+}
+.form-search:focus-within input[type="search"],  /* изменение поля поиска при фокусе */
+.form-search input[type="search"]:focus {
+  width: 160px;
+  color: #25464D;
+}
+.form-search input[type="image"] {  /* картинка лупы */
+  padding: 0;
+  vertical-align: bottom;
+}
+
+
+
+/*Увеличение изображения при наведении курсора мыши на миниатюру*/
+.ienlarger {
+  float: left;
+  clear: none; /* Можно установить left или right по необходимости */
+  #padding-bottom: 5px; /* Расстояние между миниатюрами. Лучше не трогать данное поле */
+  #padding-right: 5px; /* Расстояние между миниатюрами и окружающим текстом */
+  margin: 20px;
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  border: 1px solid #FFC411;
+transition: transform .2s; /* Animation */
+}
+.ienlarger:hover {
+    transform: scale(1.8); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.ienlarger a { 
+  display:block;
+  text-decoration: none;
+/* Если добавить правило cursor:default;, то отключится курсор в виде руки */
+}
+
+.ienlarger a:hover{ /* Не надо изменять тип позиционирования */
+   position:relative;
+}
+
+.ienlarger span img {
+  border: 1px solid #FFFFFF; /* Добавляем рамку вокруг изображения */
+  margin-bottom: 8px; /* /Сдвигаем текст вниз от изображения */
+}
+
+.ienlarger a span {  /* Для большого изображения и названия */
+  position: absolute;
+  display:none;
+  color: #1A1A1A; /* Текст названия */
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px; /* Размер шрифта названия */
+  background-color: #ffe082;
+  font-weight: bold;
+  padding-top: 3px;
+  padding-right: 3px;
+  padding-bottom: 13px;
+  padding-left: 3px;  
+border-radius: 5px;
+border: 1px solid #ebebeb;
+box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.ienlarger img { /* Для IE, чтобы не было рамки вокруг ссылки */
+border-width: 0;
+}
+
+.ienlarger a:hover span { 
+  #display:block;
+  top: 50px; /* Большое изображение выскакивает вверх на 50px от миниатюры */
+  left: -80px; /* Большое изображение выскакивает влево на 90px от миниатюры */
+  z-index: 100;
+/* Если добавить правило cursor:default;, то отключится курсор в виде руки на большом изображении */
+}
+
+.resize_thumb {
+  width: 250px; /* Вводим нужный размер миниатюры здесь */
+  height : 200px;
+}
+
+/*-------------------- Мобильная версия -----------------------------*/
+
+@media all and (max-width: 700px) and (min-width: 0px){
+	.ienlarger {
+  margin: 3px;
+}
+	.resize_thumb {
+  width: 140px; /* Вводим нужный размер миниатюры здесь */
+  height : 100px;
+}
+.ienlarger a:hover span { 
+  display:none;
+}
+}

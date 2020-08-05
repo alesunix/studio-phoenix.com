@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display:400,700,400italic,700italic&subset=latin,cyrillic);
+#* {box-sizing: border-box;}
+body {margin: 0;}
+.post {
+  width: 60%;
+  margin: 30px auto 0;
+}
+img {
+  #width: 100%;
+  #max-width: 100%;
+  height: auto;
+}
+.post-container {
+  width: 100%;
+  padding: 30px;
+}
+h1 {
+  margin: 15px 0;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 1px;
+  #color: #ff871d;
+  font-weight: 700;
+  text-transform: uppercase;
+  #text-shadow: #000 1px 1px 1px;
+}
+h8 {
+  margin: 15px 0;
+  font-size: 23px;
+  #text-align: center;
+  letter-spacing: 1px;
+  color: #ffdd76;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: #000 2px -1px 5px;
+}
+h6 {
+font-size:20px;
+font-weight:700;
+color:#006;
+text-align:right;
+#text-transform:uppercase;
+text-shadow:1px -1px 2px #fff;
+margin: revert;
+}
+h7 {
+font-size:18px;
+font-weight:300;
+color:#0d1d2f;
+#text-align:right;
+#text-transform:uppercase;
+text-shadow:1px -1px 2px #fff;
+margin: revert;
+}
+h3 {
+  font-size: 25px;
+  margin: 0;
+  color: #f7cb9d;
+  #font-style: italic;
+  letter-spacing: 1px;
+  text-align: center;
+}
+h4 {
+	top: 10px;
+position: relative;
+  margin: 15px 0;
+  font-size: 23px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffd34d;
+  #text-shadow: #000 1px 1px 1px;
+}
+h5 {
+  margin: 15px 0;
+  font-size: 16px;
+  text-align: left;
+  letter-spacing: 1px;
+  #text-transform: uppercase;
+  #text-shadow: #000 1px 1px 1px;
+  margin-left: 10px;
+}
+h2 {
+  margin: 15px 0;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #f7cb9d;
+  #text-shadow: #000 1px 1px 1px;
+}
+@media all and (max-width: 1470px) and (min-width: 0px){
+h8 {
+font-size: 12px;
+}
+h1 {
+font-size: 12px;
+margin-top: 90px;
+}
+}
+@media all and (max-width: 700px) and (min-width: 0px){
+h1 {
+font-size: 12px;
+}
+h8 {
+  margin: 15px 0;
+  font-size: 12px;
+  #text-align: center;
+  letter-spacing: 1px;
+  color: #ffe160;
+  font-weight: 700;
+  text-transform: uppercase;
+  #text-shadow: #000 1px 1px 1px;
+}
+h2 {
+font-size: 20px;
+}
+h2 small{
+font-size: 14px;
+}
+h3 {
+  font-size: 14px;
+}
+h4 {
+  font-size: 15px;
+}
+h5 {
+  text-transform: none;
+  letter-spacing: 0px;
+  font-size: 14px;
+}
+}
+
+h3 a {
+  color: #c2a77a;
+}
+
+.post-info {
+  padding-top: 35px;
+}
+
+@font-face{
+font-family: 'Roboto-Regular';
+src: url('../fonts/Roboto-Regular.ttf');
+font-style: normal; 
+font-weight: normal; 
+font-display: swap;
+}
