@@ -1,0 +1,45 @@
+[15-Nov-2019 06:31:23 UTC] PHP Notice:  Undefined variable: title in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 8
+[15-Nov-2019 06:31:23 UTC] PHP Notice:  Undefined variable: title in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 78
+[15-Nov-2019 06:31:23 UTC] PHP Notice:  Undefined variable: content in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 79
+[15-Nov-2019 06:31:31 UTC] PHP Notice:  Undefined variable: title in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 8
+[15-Nov-2019 06:31:31 UTC] PHP Notice:  Undefined variable: title in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 78
+[15-Nov-2019 06:31:31 UTC] PHP Notice:  Undefined variable: content in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 79
+[15-Nov-2019 06:31:32 UTC] PHP Notice:  Undefined variable: title in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 8
+[15-Nov-2019 06:31:32 UTC] PHP Notice:  Undefined variable: title in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 78
+[15-Nov-2019 06:31:32 UTC] PHP Notice:  Undefined variable: content in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 79
+[15-Nov-2019 06:31:34 UTC] PHP Notice:  Undefined variable: title in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 8
+[15-Nov-2019 06:31:34 UTC] PHP Notice:  Undefined variable: title in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 78
+[15-Nov-2019 06:31:34 UTC] PHP Notice:  Undefined variable: content in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 79
+[15-Nov-2019 06:32:34 UTC] PHP Notice:  Undefined variable: title in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 8
+[15-Nov-2019 06:32:34 UTC] PHP Notice:  Undefined variable: title in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 78
+[15-Nov-2019 06:32:34 UTC] PHP Notice:  Undefined variable: content in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 79
+[15-Nov-2019 06:32:38 UTC] PHP Notice:  Undefined variable: title in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 8
+[15-Nov-2019 06:32:38 UTC] PHP Notice:  Undefined variable: title in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 78
+[15-Nov-2019 06:32:38 UTC] PHP Notice:  Undefined variable: content in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 79
+[15-Nov-2019 06:33:08 UTC] PHP Notice:  Undefined variable: title in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 8
+[15-Nov-2019 06:33:08 UTC] PHP Notice:  Undefined variable: title in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 78
+[15-Nov-2019 06:33:08 UTC] PHP Notice:  Undefined variable: content in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 79
+[15-Nov-2019 06:33:10 UTC] PHP Notice:  Undefined variable: title in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 8
+[15-Nov-2019 06:33:10 UTC] PHP Notice:  Undefined variable: title in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 78
+[15-Nov-2019 06:33:10 UTC] PHP Notice:  Undefined variable: content in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 79
+[15-Nov-2019 06:35:37 UTC] PHP Notice:  Undefined variable: title in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 8
+[15-Nov-2019 06:35:37 UTC] PHP Notice:  Undefined variable: title in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 78
+[15-Nov-2019 06:35:37 UTC] PHP Notice:  Undefined variable: content in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 79
+[15-Nov-2019 06:41:38 UTC] PHP Notice:  Undefined variable: title in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 8
+[15-Nov-2019 06:41:38 UTC] PHP Notice:  Undefined variable: title in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 78
+[15-Nov-2019 06:41:38 UTC] PHP Notice:  Undefined variable: content in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 79
+[15-Nov-2019 06:42:13 UTC] PHP Notice:  Undefined variable: title in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 8
+[15-Nov-2019 06:42:13 UTC] PHP Notice:  Undefined variable: title in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 78
+[15-Nov-2019 06:42:13 UTC] PHP Notice:  Undefined variable: content in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 79
+[15-Nov-2019 06:44:43 UTC] PHP Notice:  Undefined variable: title in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 8
+[15-Nov-2019 06:44:43 UTC] PHP Notice:  Undefined variable: title in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 63
+[15-Nov-2019 06:44:43 UTC] PHP Notice:  Undefined variable: content in I:\home\complete-trade.ru\www\admin\template\design.inc.php on line 64
+[29-May-2020 10:00:49 UTC] PHP Notice:  Undefined variable: sort1 in I:\home\studio-phoenix.com\www\admin\func.inc.php on line 359
+[29-May-2020 10:00:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in I:\home\studio-phoenix.com\www\admin\func.inc.php on line 359
+[29-May-2020 10:00:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at I:\home\studio-phoenix.com\www\admin\func.inc.php:359) in I:\home\studio-phoenix.com\www\admin\menu.php on line 105
+[29-May-2020 10:00:53 UTC] PHP Parse error:  syntax error, unexpected '=', expecting T_VARIABLE or '$' in I:\home\studio-phoenix.com\www\template\menu.inc.php on line 29
+[29-May-2020 10:00:57 UTC] PHP Parse error:  syntax error, unexpected '=', expecting T_VARIABLE or '$' in I:\home\studio-phoenix.com\www\template\menu.inc.php on line 29
+[29-May-2020 10:00:58 UTC] PHP Parse error:  syntax error, unexpected '=', expecting T_VARIABLE or '$' in I:\home\studio-phoenix.com\www\template\menu.inc.php on line 29
+[29-May-2020 10:00:59 UTC] PHP Parse error:  syntax error, unexpected '=', expecting T_VARIABLE or '$' in I:\home\studio-phoenix.com\www\template\menu.inc.php on line 29
+[29-May-2020 10:00:59 UTC] PHP Parse error:  syntax error, unexpected '=', expecting T_VARIABLE or '$' in I:\home\studio-phoenix.com\www\template\menu.inc.php on line 29
+[29-May-2020 10:01:00 UTC] PHP Parse error:  syntax error, unexpected '=', expecting T_VARIABLE or '$' in I:\home\studio-phoenix.com\www\template\menu.inc.php on line 29
